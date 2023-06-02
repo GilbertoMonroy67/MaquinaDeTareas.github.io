@@ -1,0 +1,19 @@
+input{
+    width: 1100px;
+    height: 40px;
+    margin-left: 200px;
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 20px;
+    border: 2px solid #656465;
+    border-radius: 20px;
+    background-color: #E2E2E2;
+}
+@media (max-width: 600px) {
+    input{
+        width: 550px;
+        height: 30px;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+}
