@@ -20,5 +20,9 @@
     .ToDoCounter{
         height: 60px;
         font-size: 22px;
+        font-size: 20px;
+        margin-top: 30px;
+        position: relative;
+        left: -8px;
     }
 }
