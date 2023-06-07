@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//GilbertoMonroy67/MaquinaDeTareas.github.io/static/css/main.928bb19d.css",
+    "main.js": "/https//GilbertoMonroy67/MaquinaDeTareas.github.io/static/js/main.bdfeb755.js",
+    "index.html": "/https//GilbertoMonroy67/MaquinaDeTareas.github.io/index.html",
+    "main.928bb19d.css.map": "/https//GilbertoMonroy67/MaquinaDeTareas.github.io/static/css/main.928bb19d.css.map",
+    "main.bdfeb755.js.map": "/https//GilbertoMonroy67/MaquinaDeTareas.github.io/static/js/main.bdfeb755.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.928bb19d.css",
+    "static/js/main.bdfeb755.js"
+  ]
+}
