@@ -1,11 +1,18 @@
+import React from 'react';
 import './ToDoCounter.css'
+import { ToDoContext } from '../ToDoContext';
 
-function ToDoCounter( {completed, total} ){
-    if (total >0){
+function ToDoCounter( ){
+    const {
+        completedToDos,
+        totalToDos,
+    }=  React.useContext(ToDoContext)
+    
+    if (totalToDos >0){
         return (
             <h1 
                 className='ToDoCounter'>
-                    Haz completado {completed} de {total} Tareas
+                    Haz completado {completedToDos} de {totalToDos} Tareas
             </h1>
         )
     }else

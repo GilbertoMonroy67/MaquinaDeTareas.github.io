@@ -1,17 +1,15 @@
 import './CreateToDoButton.css'
 
-function CreateToDoButton(props){
+function CreateToDoButton({setOpenModal}){
     return (
-        <button className='CreateToDoButton' 
-        onClick={
-            (event) => {
-                console.log('El usuario dio click')
-                console.log(event)
-                console.log(event.target)
-            } 
-        }>
-            <p>+</p>
-        </button>
+        <button         
+            className='CreateToDoButton' 
+            onClick={
+                () => {
+                    setOpenModal(state => !state)
+                } 
+            }
+        >+</button>
     );
 }
 
