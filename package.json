@@ -33,7 +33,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "htts//GilbertoMonroy67/MaquinaDeTareas.github.io",
+  "homepage": "htts://GilbertoMonroy67/MaquinaDeTareas.github.io",
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
