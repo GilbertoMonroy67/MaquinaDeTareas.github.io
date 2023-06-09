@@ -1,15 +1,15 @@
 ul{
-    width: 1000px;
+    width: 90%;
     height: auto;
     display: grid;
     justify-content: center;
-    margin-top: 60px;
-    margin-left: 210px;
+    margin-top: 30px;
+    margin-left: 0.5em;
 }
-@media(max-width:600px){
+@media(max-width:400px){
     ul{
-        width: 500px;
-        margin-top: 30px;
-        margin-left: -7px;
+        width: 116%;
+        margin-top: 20px;
+        margin-left: -19%;
     }
 }

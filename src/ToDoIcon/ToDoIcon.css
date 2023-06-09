@@ -3,8 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 48px;
-    width: 48px;
+    height: 36px;
+    width: 36px;
     font-size: 24px;
     font-weight: bold;
     /* background-color: #CCC; */
@@ -12,7 +12,7 @@
 
 .Icon-container-check {
     position: absolute;
-    left: 150px;
+    left: 5em;
 }
 .Icon-container-check--active {
     color: #4caf50;
@@ -40,11 +40,11 @@
 .Icon-container-delete:hover .Icon-svg {
     fill: red;
 }
-@media(max-width:600px){
+@media(max-width:400px){
     .Icon-container-check {
-        left: 19px;
+        left: 3%;
     }
     .Icon-container-delete {
-        right: 52px;
+        right: 3%;
     }
 }

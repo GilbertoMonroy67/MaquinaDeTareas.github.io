@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1200px;
+    width: 57em;
     height: 50px;
     margin-bottom: 20px;
     background-color: #E2E2E2;
@@ -20,8 +20,15 @@
     text-decoration: line-through;
 }  
 
-@media(max-width:600px){
+@media(max-width:400px){
     .ToDoItem{
-        width: 540px;
+        width: 24em;
+        height: 30px;
+        margin-bottom: 16px;
+        background-color: #E2E2E2;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 700;
+        font-size: 16px;
+        border-radius: 20px;
     }
 }
