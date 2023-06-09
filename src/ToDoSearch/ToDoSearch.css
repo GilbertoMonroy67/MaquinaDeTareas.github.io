@@ -9,9 +9,30 @@ input{
     border-radius: 20px;
     background-color: #E2E2E2;
 }
+@media (max-width: 600px) {
+    input{
+        width: 90%;
+        height: 2em;
+        margin-left: 1em;
+        text-align: center;
+        font-family: 'Major Mono Display', monospace;
+        font-size: 12px;
+    }
+}
+@media (max-width: 500px) {
+    input{
+        width: 90%;
+        height: 1em;
+        margin-left: 1em;
+        text-align: center;
+        font-family: 'Major Mono Display', monospace;
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 400px) {
     input{
-        width: 100%;
+        width: 98%;
         height: 1em;
         margin-left: 0em;
         text-align: center;

@@ -19,7 +19,54 @@
 .ToDoItem-p--complete {
     text-decoration: line-through;
 }  
-
+@media(max-width:800px){
+    .ToDoItem{
+        width: 43em;
+        height: 34px;
+        margin-bottom: 16px;
+        background-color: #E2E2E2;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 700;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+}
+@media(max-width:700px){
+    .ToDoItem{
+        width: 36em;
+        height: 34px;
+        margin-bottom: 16px;
+        background-color: #E2E2E2;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 700;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+}
+@media(max-width:600px){
+    .ToDoItem{
+        width: 32em;
+        height: 30px;
+        margin-bottom: 16px;
+        background-color: #E2E2E2;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 700;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+}
+@media(max-width:500px){
+    .ToDoItem{
+        width: 28em;
+        height: 30px;
+        margin-bottom: 16px;
+        background-color: #E2E2E2;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 700;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+}
 @media(max-width:400px){
     .ToDoItem{
         width: 24em;

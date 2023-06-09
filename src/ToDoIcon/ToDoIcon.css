@@ -40,6 +40,38 @@
 .Icon-container-delete:hover .Icon-svg {
     fill: red;
 }
+@media(max-width:800px){
+    .Icon-container-check {
+        left: 8%;
+    }
+    .Icon-container-delete {
+        right: 8%;
+    }
+}
+@media(max-width:700px){
+    .Icon-container-check {
+        left: 9%;
+    }
+    .Icon-container-delete {
+        right: 8%;
+    }
+}
+@media(max-width:600px){
+    .Icon-container-check {
+        left: 4%;
+    }
+    .Icon-container-delete {
+        right: 9%;
+    }
+}
+@media(max-width:500px){
+    .Icon-container-check {
+        left: 3%;
+    }
+    .Icon-container-delete {
+        right: 8%;
+    }
+}
 @media(max-width:400px){
     .Icon-container-check {
         left: 3%;

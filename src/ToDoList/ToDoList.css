@@ -6,10 +6,38 @@ ul{
     margin-top: 30px;
     margin-left: 0.5em;
 }
+@media(max-width:800px){
+    ul{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -5%;
+    }
+}
+@media(max-width:700px){
+    ul{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -5%;
+    }
+}
+@media(max-width:600px){
+    ul{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -10%;
+    }
+}
+@media(max-width:500px){
+    ul{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -10%;
+    }
+}
 @media(max-width:400px){
     ul{
-        width: 116%;
+        width: 102%;
         margin-top: 20px;
-        margin-left: -19%;
+        margin-left: -11%;
     }
 }
