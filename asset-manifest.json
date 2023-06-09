@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MaquinaDeTareas.github.io/static/css/main.928bb19d.css",
+    "main.css": "/MaquinaDeTareas.github.io/static/css/main.5b19bf14.css",
     "main.js": "/MaquinaDeTareas.github.io/static/js/main.bdfeb755.js",
     "index.html": "/MaquinaDeTareas.github.io/index.html",
-    "main.928bb19d.css.map": "/MaquinaDeTareas.github.io/static/css/main.928bb19d.css.map",
+    "main.5b19bf14.css.map": "/MaquinaDeTareas.github.io/static/css/main.5b19bf14.css.map",
     "main.bdfeb755.js.map": "/MaquinaDeTareas.github.io/static/js/main.bdfeb755.js.map"
   },
   "entrypoints": [
-    "static/css/main.928bb19d.css",
+    "static/css/main.5b19bf14.css",
     "static/js/main.bdfeb755.js"
   ]
 }
